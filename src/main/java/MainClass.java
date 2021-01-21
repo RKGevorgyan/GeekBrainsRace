@@ -22,12 +22,6 @@ public class MainClass {
         cd1.await();
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка началась!!!");
         cd2.await();
-//        for (int i = 0; i < cars.length; i++) {
-//            if (cars[i].getWinCount() == 3){
-//                System.out.println(cars[i].getName() + " WIN!!!");
-//                break;
-//            }
-//        }
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка закончилась!!!");
 
     }

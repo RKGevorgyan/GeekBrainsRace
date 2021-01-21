@@ -7,6 +7,7 @@ public class Tunnel extends Stage {
         this.description = "Тоннель " + length + " метров";
         this.semaphore = semaphore;
     }
+
     @Override
     public void go(Car c) throws InterruptedException {
         c.setWinCount(c.getWinCount()+1);

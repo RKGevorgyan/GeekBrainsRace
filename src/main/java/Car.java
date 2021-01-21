@@ -1,5 +1,4 @@
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.Semaphore;
 
 public class Car implements Runnable {
     private static int CARS_COUNT;
@@ -47,6 +46,7 @@ public class Car implements Runnable {
         this.cd1 = cd1;
         this.cd2 = cd2;
     }
+
     @Override
     public void run() {
         try {
